@@ -5,4 +5,7 @@ const apiController_1 = require("../controllers/apiController");
 const router = (0, express_1.Router)();
 router.get('/api/users', apiController_1.getUsers);
 router.get('/api/activities', apiController_1.getActivities);
+router.get('/api/teams', apiController_1.getTeams);
+router.get('/api/leaderboard', apiController_1.getLeaderboard);
+router.get('/api/workouts', apiController_1.getWorkouts);
 exports.default = router;
